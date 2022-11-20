@@ -31,23 +31,31 @@ public class Person {
         this.name = name;
     }
 
-    public Person(String name, int age, String ) {
+    public Person(String name, int age, String gender, String job, String height, int weight, int zipCode) {
         this.name = name;
         this.age = age;
+        this.gender = gender;
+        this.job = job;
+        this.height = height;
+        this.weight = weight;
+        this.zipCode = zipCode;
     }
 
     public void setName(String name) {
-
+        this.name = name;
     }
 
     public void setAge(int age) {
+        this.age = age;
     }
 
     public String getName() {
-        return null;
+        return name;
     }
 
     public Integer getAge() {
-        return null;
+        return age;
     }
 }
+
+    public void
