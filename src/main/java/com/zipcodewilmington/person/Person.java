@@ -6,20 +6,11 @@ package com.zipcodewilmington.person;
 public class Person {
     private String name;
     private int age;
-    private String gender;
-    private String job;
-    private String height;
-    private int weight;
-    private int zipCode;
+
 
     public Person() {
        name = "";
        age = Integer.MAX_VALUE;
-       gender = "";
-       job = "";
-       height = "";
-       weight = Integer.MAX_VALUE;
-       zipCode = Integer.MAX_VALUE;
 
     }
 
@@ -31,14 +22,10 @@ public class Person {
         this.name = name;
     }
 
-    public Person(String name, int age, String gender, String job, String height, int weight, int zipCode) {
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
-        this.gender = gender;
-        this.job = job;
-        this.height = height;
-        this.weight = weight;
-        this.zipCode = zipCode;
+
     }
 
     public void setName(String name) {
@@ -50,12 +37,12 @@ public class Person {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public Integer getAge() {
-        return age;
+        return this.age;
     }
 }
 
-    public void
+
