@@ -37,11 +37,11 @@ public class Person {
     }
 
     public String getName() {
-        return this.name;
+        return name;
     }
 
     public Integer getAge() {
-        return this.age;
+        return age;
     }
 }
 
